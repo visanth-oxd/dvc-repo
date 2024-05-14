@@ -1,4 +1,6 @@
 [core]
-    remote = myremote
+    remote = ad-remote
 ['remote "myremote"']
     url = gs://dvc-dataassets
+['remote "ad-remote"']
+    url = gs://test-datasets-eu
